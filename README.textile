@@ -65,6 +65,26 @@ To run the whole test suite simply do:
 $ rake spec
 </pre>
 
+h2. Setting up a development environment
+
+h3. Mac OSX
+
+h4. Install Postgres:
+
+<pre>
+  brew update
+  brew install postgresql
+</pre>
+
+h4. Create databases
+
+<pre>
+  createdb travis_development
+  createdb travis_jasmine
+  createdb travis_production
+  createdb travis_test
+</pre>
+
 h2. Development
 
 Setup is pretty easy. You need to execute 4 steps:
